@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "group 1",
+        "path": ["/a/", "/b/"]
+    },
+    {
+        "id": 2,
+        "name": "group 2",
+        "path": ["/c/"]
+    },
+    {
+        "id": 3,
+        "name": "group 3",
+        "path": ["/d/"]
+    }
+]

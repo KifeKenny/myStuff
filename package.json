@@ -1,0 +1,16 @@
+{
+  "name": "cybersearch_admin",
+  "version": "1.0.0",
+  "description": "cybersearch admin site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+  },
+  "author": "Kevin Olguin Jönsson",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4"
+  }
+}

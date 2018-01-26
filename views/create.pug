@@ -1,0 +1,22 @@
+extend layout.pug
+
+block middle
+    div(class="col-sm-8 text-left")
+        h1 Create
+        hr
+        <input type="hidden" name="userid" value="">
+        <p>
+        <label>Username<br>
+        <input type="text" name="username" value="">
+        </label>
+        </p>
+        <p>
+        <label>Restrictions<br>
+        <select>
+        <option>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        </select>
+        </p>
+        <button type="button" onclick="alert('person added')">Create</button>

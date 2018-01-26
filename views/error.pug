@@ -1,0 +1,7 @@
+extend layout.pug
+
+block middle
+    div(class="col-sm-8 text-left")
+        h1= error.message
+        h2= error.status
+        pre #{error.stack}

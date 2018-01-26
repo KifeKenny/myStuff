@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "username": "Alice",
+        "firstName": "Alice",
+        "lastName": "Allison",
+        "group": [1, 2]
+    },
+    {
+        "id": 2,
+        "username": "Marie",
+        "firstName": "Marie",
+        "lastName": "Collinsworth",
+        "group": [1]
+    },
+    {
+        "id": 3,
+        "username": "Simon",
+        "firstName": "Simon",
+        "lastName": "Uzzle",
+        "group": [2]
+    },
+    {
+        "id": 4,
+        "username": "Faustina",
+        "firstName": "Faustina",
+        "lastName": "Byfield",
+        "group": [3]
+    }
+]
