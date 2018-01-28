@@ -70,7 +70,7 @@
             } else if (checkerUG == "groupsJson") {
                 tempTable =
                    ["<tr>",
-                    '<td><a href=' + myUrl + '/' + res[i].id + '>' + res[i].name + "</a></td>",
+                    '<td><a href=' + myUrl.substr(0, (myUrl.length - 4)) + '/edit/' + res[i].id + '>' + res[i].name + "</a></td>",
                     "<td>" + res[i].path.join(", ") + "</td>",
                     '</tr>'
                    ].join('\n');

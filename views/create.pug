@@ -6,17 +6,15 @@ block middle
         hr
         <input type="hidden" name="userid" value="">
         <p>
-        <label>Username<br>
-        <input type="text" name="username" value="">
+        <label>Name<br>
+        <input type="text" name="createName" value="">
         </label>
         </p>
         <p>
-        <label>Restrictions<br>
-        <select>
-        <option>0</option>
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
+        <label>Type<br>
+        <select id="createUG">
+        <option value="user">User</option>
+        <option value="group">Group</option>
         </select>
         </p>
         <button type="button" onclick="alert('person added')">Create</button>

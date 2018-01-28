@@ -6,9 +6,9 @@ var express = require("express");
 //get routes
 var users = require('./routes/default/users');
 var groups = require('./routes/default/groups');
-
 var create = require('./routes/default/create');
 var editUser = require('./routes/default/edituser');
+var editGroups = require('./routes/default/editgroups');
 
 //for test
 var usersJson = require('./routes/testJson/usersjson');
@@ -49,11 +49,14 @@ app.use('/', users);
 app.use('/groups', groups);
 app.use('/create', create);
 app.use('/users/edit/:id', editUser);
+app.use('/groups/edit/:id', editGroups);
+
 
 //for test
 app.use('/users', usersJson);
 app.use('/groupsJson', groupsJson);
 
+//Also for test
 var testgroups = require('./testdata/groups.json');
 var testusers = require('./testdata/users.json');
 app.get("/groupsJson/:id", (req, res) => {

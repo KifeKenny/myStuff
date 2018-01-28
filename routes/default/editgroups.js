@@ -5,7 +5,7 @@ var router = express.Router();
 router.get("/", function(req, res) {
     res.render("edit", {
         title: "Admin | Edit",
-        script: "/js/editUsers.js"
+        script: "/js/editGroups.js"
     });
 });
 
